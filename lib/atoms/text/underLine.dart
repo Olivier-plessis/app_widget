@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AtomTextUnderline extends StatelessWidget {
-  const AtomTextUnderline({super.key, required this.content});
+class ATextUnderline extends StatelessWidget {
+  const ATextUnderline({super.key, required this.content});
 
   final String content;
 

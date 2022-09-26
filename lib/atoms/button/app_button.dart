@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class AtomButton extends ElevatedButton {
-  const AtomButton({
+class AButton extends ElevatedButton {
+  const AButton({
     required super.child,
     required super.onPressed,
     super.key,
   });
-  AtomButton.destructive({
+  AButton.destructive({
     required super.child,
     required super.onPressed,
     required ThemeData theme,
     super.key,
   }) : super(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: theme.colorScheme.tertiary,
-          ),
+        // style: ElevatedButton.styleFrom(
+        //   backgroundColor: theme.colorScheme.tertiary,
+        // ),
         );
 }

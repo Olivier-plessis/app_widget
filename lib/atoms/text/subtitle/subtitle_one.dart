@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AtomTextSubTitleOne extends StatelessWidget {
-  const AtomTextSubTitleOne({super.key, required this.content});
+class ATextSubTitlePrimary extends StatelessWidget {
+  const ATextSubTitlePrimary({super.key, required this.content});
 
   final String content;
 

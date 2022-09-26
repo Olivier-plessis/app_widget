@@ -96,7 +96,7 @@ packages:
     source: sdk
     version: "0.0.0"
   gap:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: gap
       url: "https://pub.dartlang.org"
@@ -137,6 +137,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.2"
+  shimmer:
+    dependency: transitive
+    description:
+      name: shimmer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   sky_engine:
     dependency: transitive
     description: flutter

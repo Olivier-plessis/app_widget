@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class AtomFloatingButton extends FloatingActionButton {
-  const AtomFloatingButton({
+class AFloatingButton extends FloatingActionButton {
+  const AFloatingButton({
     required super.child,
     required super.onPressed,
     super.key,
   });
-  AtomFloatingButton.destructive({
+  AFloatingButton.destructive({
     required super.child,
     required super.onPressed,
     required ThemeData theme,

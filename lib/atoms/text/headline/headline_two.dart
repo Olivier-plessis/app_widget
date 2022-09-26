@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AtomTextHeadlineTwo extends StatelessWidget {
-  const AtomTextHeadlineTwo({super.key, required this.content});
+class ATextHeadlineTwo extends StatelessWidget {
+  const ATextHeadlineTwo({super.key, required this.content});
 
   final String content;
 

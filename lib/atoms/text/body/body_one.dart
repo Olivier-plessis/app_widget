@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AtomTextBodyOne extends StatelessWidget {
-  const AtomTextBodyOne({super.key, required this.content});
+class ATextBodyOne extends StatelessWidget {
+  const ATextBodyOne({super.key, required this.content});
 
   final String content;
 

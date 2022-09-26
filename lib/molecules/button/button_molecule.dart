@@ -2,8 +2,8 @@ import 'package:app_widget/atoms/button/app_button.dart';
 import 'package:app_widget/atoms/text/button.dart';
 import 'package:flutter/material.dart';
 
-class MoleculeButton extends StatelessWidget {
-  const MoleculeButton({
+class MButton extends StatelessWidget {
+  const MButton({
     Key? key,
     required this.content,
     required this.onPressed,
@@ -14,10 +14,10 @@ class MoleculeButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AtomButton.destructive(
+    return AButton.destructive(
       theme: Theme.of(context),
       onPressed: onPressed,
-      child: AtomTextBtn(
+      child: ATextBtn(
         content: content,
       ),
     );
